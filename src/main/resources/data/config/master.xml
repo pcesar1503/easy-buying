@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <include file="data/config/changelog/00000000000000_initial_schema.xml" />
+    <include file="data/config/changelog/20170908214000_permission.xml" />
+    <include file="data/config/changelog/20170908214001_user.xml" />
+    <include file="data/config/changelog/20170908214002_user_permission.xml" />
+    <include file="data/config/changelog/201709101721003_person.xml" />
+    <include file="data/config/changelog/2017091017233004_client.xml" />
+    <include file="data/config/changelog/20170929201500_state.xml" />
+    <include file="data/config/changelog/20170929202200_city.xml" />
+    <include file="data/config/changelog/20170929203300_neighborhood.xml" />
+    <include file="data/config/changelog/20170929200500_address.xml" />
+    <include file="data/config/changelog/20170929192700_user_refactor.xml" />
+    <include file="data/config/changelog/20170929212400_product_category.xml"/>
+    <include file="data/config/changelog/20170929212800_product.xml"/>
+    <include file="data/config/changelog/20170929210500_product_request.xml" />
+    <include file="data/config/changelog/20170929220300_supplier.xml" />
+    <include file="data/config/changelog/20170929221900_quotation.xml" />
+    <include file="data/config/changelog/201709292139_notification_type.xml" />
+    <include file="data/config/changelog/20170929214400_notification_template.xml" />
+    <include file="data/config/changelog/201709292154_notification.xml" />
+    <include file="data/config/changelog/20170929221300_supplier_product.xml"/>
+    <include file="data/config/changelog/20170929231400_employee.xml" />
+    <include file="data/config/changelog/20170929233000_banner.xml"/>
+    <include file="data/config/changelog/20170929234800_payment_feature.xml" />
+    <include file="data/config/changelog/2017092900_payment.xml" />
+    <include file="data/config/changelog/201710081535000_insert_role.xml" />
+
+</databaseChangeLog>
